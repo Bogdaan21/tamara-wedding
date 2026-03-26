@@ -1,0 +1,265 @@
+.below-service-section {
+  background: #f3efec;
+  padding: 110px 0;
+  overflow: hidden;
+}
+
+.below-service-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.below-service-left {
+  position: relative;
+  width: 50%;
+  min-height: 720px;
+}
+
+.below-service-shape {
+  position: absolute;
+  top: 55px;
+  left: 110px;
+  width: 410px;
+  height: 560px;
+  opacity: 0.12;
+  z-index: 1;
+}
+
+.below-service-shape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.below-service-main-img {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  width: 360px;
+  height: 560px;
+  z-index: 3;
+}
+
+.below-service-main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.below-service-small-img {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 220px;
+  height: 300px;
+  z-index: 4;
+}
+
+.below-service-small-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.below-service-right {
+  width: 50%;
+  max-width: 560px;
+}
+
+.below-service-right h2 {
+  margin: 0 0 24px;
+  font-size: 78px;
+  line-height: 0.95;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #2f312d;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.below-service-location {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.9;
+  letter-spacing: 5px;
+  color: #2f312d;
+  text-transform: uppercase;
+}
+
+.below-service-line {
+  width: 100%;
+  max-width: 560px;
+  height: 1px;
+  background: #bdb7b1;
+  margin-bottom: 40px;
+}
+
+.below-service-right p {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.35;
+  color: #3a3b37;
+  font-style: italic;
+  font-family: "Cormorant Garamond", serif;
+}
+
+@media (max-width: 1399px) {
+  .below-service-right h2 {
+    font-size: 66px;
+  }
+
+  .below-service-main-img {
+    left: 180px;
+    width: 320px;
+    height: 520px;
+  }
+
+  .below-service-shape {
+    left: 80px;
+    width: 360px;
+    height: 520px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .below-service-wrap {
+    gap: 50px;
+  }
+
+  .below-service-left {
+    min-height: 620px;
+  }
+
+  .below-service-main-img {
+    left: 140px;
+    width: 290px;
+    height: 470px;
+  }
+
+  .below-service-small-img {
+    width: 190px;
+    height: 250px;
+  }
+
+  .below-service-shape {
+    left: 70px;
+    width: 320px;
+    height: 470px;
+  }
+
+  .below-service-right h2 {
+    font-size: 56px;
+  }
+
+  .below-service-right p {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .below-service-section {
+    padding: 90px 0;
+  }
+
+  .below-service-wrap {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .below-service-left,
+  .below-service-right {
+    width: 100%;
+  }
+
+  .below-service-left {
+    min-height: 620px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .below-service-right {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .below-service-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .below-service-left {
+    min-height: 500px;
+  }
+
+  .below-service-main-img {
+    left: 110px;
+    width: 220px;
+    height: 360px;
+  }
+
+  .below-service-small-img {
+    width: 150px;
+    height: 200px;
+    bottom: 10px;
+  }
+
+  .below-service-shape {
+    top: 40px;
+    left: 55px;
+    width: 250px;
+    height: 390px;
+  }
+
+  .below-service-right h2 {
+    font-size: 42px;
+  }
+
+  .below-service-location {
+    font-size: 13px;
+    letter-spacing: 3px;
+  }
+
+  .below-service-right p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .below-service-section {
+    padding: 70px 0;
+  }
+
+  .below-service-left {
+    min-height: 420px;
+  }
+
+  .below-service-main-img {
+    left: 78px;
+    width: 190px;
+    height: 310px;
+  }
+
+  .below-service-small-img {
+    width: 125px;
+    height: 170px;
+    left: 0;
+  }
+
+  .below-service-shape {
+    left: 35px;
+    width: 210px;
+    height: 330px;
+  }
+
+  .below-service-right h2 {
+    font-size: 34px;
+  }
+
+  .below-service-right p {
+    font-size: 20px;
+  }
+}

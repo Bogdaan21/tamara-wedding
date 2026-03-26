@@ -9,7 +9,6 @@ const ContactPage =() => {
     return(
         <Fragment>
             <Navbar2/>
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
             <Footer/>
             <Scrollbar/>

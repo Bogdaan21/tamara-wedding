@@ -15,22 +15,12 @@ import logo from "../../images/logo-tamara.png";
 
 class Hero3 extends Component {
   render() {
-    var settings = {
-      dots: false,
-      arrows: true,
-      speed: 1200,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2500,
-      fade: true,
-    };
+
 
     return (
       <div className="wpo-hero-slider wpo-hero-style-3">
         <div className="swiper-container">
           <div className="swiper-wrapper">
-            <Slider {...settings}>
               <div className="hero-slide">
                 <div className="slide-inner slide-bg-image">
                   <div className="container-fluid">
@@ -110,7 +100,6 @@ class Hero3 extends Component {
                                     </div>
                                 </div>
                             </div> */}
-            </Slider>
           </div>
         </div>
       </div>

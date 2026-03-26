@@ -4,7 +4,7 @@ import Services from '../../api/service'
 import {Link} from 'react-router-dom'
 
 
-const ServiceSection = (props) => {
+const ServiceSection = () => {
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
      }

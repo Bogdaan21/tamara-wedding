@@ -9,18 +9,14 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import ProjectSection from '../../components/ProjectSection';
 import PricingSection from '../../components/PricingSection';
+import ServiceList from '../../components/ServiceList';
 
 const AboutPage =() => {
     return(
         <Fragment>
             <Navbar2/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
             <About pt={'pt-120'}/>
-            <ServiceSection pbClass={'pb-0'}/>
-            <FunFact fClass={'pt-0'}/>
-            <ProjectSection/>
-            <PricingSection/>
-            <TeamSection/>
+            <ServiceList pbClass={'pb-0'}/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

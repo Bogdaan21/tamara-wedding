@@ -1,0 +1,127 @@
+.portfolio-modern-section {
+  background: #f3efec;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.portfolio-modern-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-top: 30px;
+}
+
+.portfolio-modern-card {
+  width: 100%;
+}
+
+.portfolio-modern-image {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.portfolio-modern-image img {
+  width: 100%;
+  height: 590px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.portfolio-modern-card:hover .portfolio-modern-image img {
+  transform: scale(1.03);
+}
+
+.portfolio-modern-content h4 {
+  margin: 0 0 18px;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #2f312d;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.portfolio-modern-content h3 {
+  margin: 0;
+  color: #2f312d;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Cormorant Garamond", serif;
+  max-width: 95%;
+}
+
+@media (max-width: 1399px) {
+  .portfolio-modern-image img {
+    height: 520px;
+  }
+
+  .portfolio-modern-content h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .portfolio-modern-grid {
+    gap: 30px;
+  }
+
+  .portfolio-modern-image img {
+    height: 470px;
+  }
+
+  .portfolio-modern-content h4 {
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+
+  .portfolio-modern-content h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolio-modern-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-modern-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .portfolio-modern-image img {
+    height: 500px;
+  }
+
+  .portfolio-modern-content h3 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .portfolio-modern-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .portfolio-modern-image img {
+    height: 400px;
+  }
+
+  .portfolio-modern-content h4 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  .portfolio-modern-content h3 {
+    font-size: 22px;
+  }
+}
