@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import MobileMenu2 from "../MobileMenu2";
-import min3 from "../../images/love.png";
 import { removeFromCart } from "../../store/slices/cartSlice";
 import { Link } from "react-router-dom";
 import HeaderTopbar from "../HeaderTopbar";
-import { totalPrice } from "../../utils";
+import logo from '../../images/logo-tamara.png'
 
 /* ---------------------------------
    Wrapper component (Redux Toolkit)
@@ -44,8 +43,6 @@ class Header2 extends Component {
   };
 
   render() {
-    const { isSearchShow, isCartShow } = this.state;
-
     const SubmitHandler = (e) => {
       e.preventDefault();
     };
@@ -54,16 +51,12 @@ class Header2 extends Component {
       window.scrollTo(10, 0);
     };
 
-    // ✅ carts + removeFromCart now come from wrapper
-    const { carts, removeFromCart } = this.props;
-
     return (
       <header id="header" className={this.props.topbarBlock}>
-        <HeaderTopbar />
         <div className={`wpo-site-header ${this.props.hclass}`} id="home">
           <nav className="navigation navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-              <div className="row align-items-center">
+              <div className="row align-items-center justify-content-between">
                 <div className="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
                   <div className="mobail-menu">
                     <MobileMenu2 />
@@ -77,11 +70,8 @@ class Header2 extends Component {
                       className="navbar-brand logo"
                       to="/home"
                     >
-                      Feel
-                      <span>
-                        i<i className="fa fa-heart" aria-hidden="true"></i>
-                      </span>
-                      ngs
+                      <img src={logo} alt="Logo" />
+
                     </Link>
                   </div>
                 </div>
@@ -231,6 +221,8 @@ class Header2 extends Component {
                         </ul>
                       </li>
 
+                      
+
                       <li className="menu-item-has-children">
                         <Link to="/shop">Shop</Link>
                         <ul className="sub-menu">
@@ -314,121 +306,6 @@ class Header2 extends Component {
                         </Link>
                       </li>
                     </ul>
-                  </div>
-                </div>
-
-                <div className="col-lg-3 col-md-2 col-2">
-                  <div className="header-right">
-                    <div className="header-search-form-wrapper">
-                      <div className="cart-search-contact">
-                        <button
-                          onClick={this.searchHandler}
-                          className="search-toggle-btn"
-                        >
-                          <i
-                            className={`${
-                              isSearchShow ? "fi ti-close" : "fi ti-search"
-                            }`}
-                          ></i>
-                        </button>
-
-                        <div
-                          className={`header-search-form ${
-                            isSearchShow ? "header-search-content-toggle" : ""
-                          }`}
-                        >
-                          <form onSubmit={SubmitHandler}>
-                            <div>
-                              <input
-                                type="text"
-                                className="form-control"
-                                placeholder="Search here..."
-                              />
-                              <button type="submit">
-                                <i className="fi flaticon-search"></i>
-                              </button>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="mini-cart">
-                      <button
-                        onClick={this.cartHandler}
-                        className="cart-toggle-btn"
-                      >
-                        <i className="fi flaticon-shopping-cart"></i>
-                        <span className="cart-count">{carts.length}</span>
-                      </button>
-
-                      <div
-                        className={`mini-cart-content ${
-                          isCartShow ? "mini-cart-content-toggle" : ""
-                        }`}
-                      >
-                        <button
-                          onClick={this.cartHandler}
-                          className="mini-cart-close"
-                        >
-                          <i className="ti-close"></i>
-                        </button>
-
-                        <div className="mini-cart-items">
-                          {carts &&
-                            carts.length > 0 &&
-                            carts.map((cart, crt) => (
-                              <div className="mini-cart-item clearfix" key={crt}>
-                                <div className="mini-cart-item-image">
-                                  <span>
-                                    <img src={cart.proImg} alt="icon" />
-                                  </span>
-                                </div>
-                                <div className="mini-cart-item-des">
-                                  <p>{cart.title}</p>
-                                  <span className="mini-cart-item-price">
-                                    ${cart.price} x {cart.qty}
-                                  </span>
-                                  <span className="mini-cart-item-quantity">
-                                    <button
-                                      onClick={() => removeFromCart(cart.id)}
-                                      className="btn btn-sm btn-danger"
-                                    >
-                                      <i className="ti-close"></i>
-                                    </button>{" "}
-                                  </span>
-                                </div>
-                              </div>
-                            ))}
-                        </div>
-
-                        <div className="mini-cart-action clearfix">
-                          <span className="mini-checkout-price">
-                            Total: ${totalPrice(carts)}
-                          </span>
-                          <div className="mini-btn">
-                            <Link
-                              onClick={ClickHandler}
-                              to="/checkout"
-                              className="view-cart-btn s1"
-                            >
-                              Checkout
-                            </Link>
-                            <Link
-                              onClick={ClickHandler}
-                              to="/cart"
-                              className="view-cart-btn"
-                            >
-                              View Cart
-                            </Link>
-                          </div>
-                        </div>
-
-                        <div className="visible-icon">
-                          <img src={min3} alt="icon" />
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
 

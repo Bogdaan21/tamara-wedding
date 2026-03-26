@@ -46,6 +46,10 @@
  /* 6.2 wpo-about-section */
 
 .wpo-about-section{
+	margin-top: 120px;
+	    @media(max-width:767px){
+        margin-top: 0px;
+    }
 
 	.wpo-about-section-wrapper{
         box-shadow: 0px 1px 13.5px 1.5px rgba(46, 49, 108, 0.08);
@@ -153,6 +157,7 @@
 
 	@include media-query(767px) {
 		padding-bottom: 30px;
+		margin-top: 0px;
 	}
 
 	.wpo-fun-fact-grids .grid {

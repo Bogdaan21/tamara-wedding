@@ -80,7 +80,7 @@ class PartnerSection extends Component {
 
         return (
 
-            <section className={`wpo-partners-section ${this.props.tNone}`}>
+            <section className={`wpo-partners-section pt-120 ${this.props.tNone}`}>
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">

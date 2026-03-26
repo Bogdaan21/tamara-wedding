@@ -3,6 +3,7 @@ import '../src/css/font-awesome.min.css'
 import '../src/css/themify-icons.css'
 import '../src/css/flaticon.css'
 import './sass/style.scss'
+import './style.css'
 import 'react-toastify/dist/ReactToastify.css';
 import AllRoute from './main-component/router';
 import { ToastContainer } from 'react-toastify';

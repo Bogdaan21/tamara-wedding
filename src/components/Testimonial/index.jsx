@@ -65,7 +65,7 @@ class Testimonial extends Component {
         };
 
         return (
-            <div className="wpo-testimonial-area ">
+            <div className="wpo-testimonial-area pt-120">
                 <div className="container">
                     <SectionTitle MainTitle={'What Our Clients Say'} />
                     <div className="wpo-testimonial-wrap">
