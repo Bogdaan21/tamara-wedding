@@ -238,3 +238,11 @@
     font-size: 12px;
   }
 }
+
+.date-input {
+  color: #000;
+}
+
+.date-input.empty {
+  color: #999; /* siva kao placeholder */
+}

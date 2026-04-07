@@ -47,37 +47,31 @@ class ContactForm extends Component {
   submitHandler = (e) => {
     e.preventDefault();
 
-    const {
-      fullName,
-      email,
-      phone,
-      budget,
-      details,
-      services,
-    } = this.state;
+    const { fullName, email, service, details } = this.state;
 
     let error = {};
 
-    if (!fullName.trim()) error.fullName = "Please enter your full name";
-    if (!email.trim()) error.email = "Please enter your email";
-    if (!phone.trim()) error.phone = "Please enter your phone number";
-    if (!budget.trim()) error.budget = "Please enter your estimated budget";
-    if (!details.trim()) error.details = "Please tell us more about your event";
-    if (!services.length) error.services = "Please choose at least one service";
+    if (!fullName.trim()) error.fullName = "Required";
+    if (!email.trim()) error.email = "Required";
+    if (!service) error.service = "Required";
+    if (!details.trim()) error.details = "Required";
 
     this.setState({ error });
 
     if (Object.keys(error).length === 0) {
-      console.log("FORM DATA:", this.state);
+      alert(
+        "Thank you for reaching out. We have received your message and will get back to you within 48 hours to schedule our first consultation.",
+      );
 
       this.setState({
         fullName: "",
         email: "",
         phone: "",
-        eventDate: "",
-        services: [],
+        weddingDate: "",
+        location: "",
         guestCount: "",
         budget: "",
+        service: "",
         hearAbout: "",
         details: "",
         error: {},
@@ -86,17 +80,6 @@ class ContactForm extends Component {
   };
 
   render() {
-    const {
-      fullName,
-      email,
-      phone,
-      eventDate,
-      services,
-      hearAbout,
-      details,
-      error,
-    } = this.state;
-
     return (
       <section className="inquire-section">
         <div className="container">
@@ -105,145 +88,134 @@ class ContactForm extends Component {
               <div className="inquire-header">
                 <h2>INQUIRE</h2>
                 <div className="inquire-line"></div>
-
-                <p>
-                  Most of our clients plan weddings in the $150,000 to $350,000+
-                  range. Planning fees vary based on complexity and typically
-                  range from 10-13% of your overall wedding budget.
-                </p>
-
-                <p>
-                  Please complete the form below to tell us more about your
-                  wedding or event. We will be in touch shortly to schedule a
-                  consultation. Thank you for considering Metheny &amp; Company!
-                </p>
               </div>
 
               <form onSubmit={this.submitHandler} className="inquire-form">
+                <p style={{ marginBottom: "20px" }}>
+                  Let’s start planning your story. We take on a limited number of weddings each year to ensure every
+                  couple receives our full devotion and world-class service.
+                </p>
+
+                {/* NAME */}
                 <div className="form-group">
-                  <label>Full name *</label>
+                  <label>First & Last Names *</label>
                   <input
                     type="text"
                     name="fullName"
-                    value={fullName}
+                    placeholder="Enter your full name"
+                    value={this.state.fullName}
                     onChange={this.changeHandler}
-                    placeholder="Your name here"
                   />
-                  <p className="error-text">{error.fullName || ""}</p>
+                  <p className="error-text">{this.state.error.fullName}</p>
                 </div>
 
+                {/* EMAIL */}
                 <div className="form-group">
-                  <label>Email *</label>
+                  <label>Email Address *</label>
                   <input
                     type="email"
                     name="email"
-                    value={email}
+                    placeholder="Enter your email address"
+                    value={this.state.email}
                     onChange={this.changeHandler}
-                    placeholder="E.g myemail@email.com"
                   />
-                  <p className="error-text">{error.email || ""}</p>
+                  <p className="error-text">{this.state.error.email}</p>
                 </div>
 
+                {/* PHONE */}
                 <div className="form-group">
-                  <label>Phone number *</label>
+                  <label>Phone Number / WhatsApp</label>
                   <input
                     type="text"
                     name="phone"
-                    value={phone}
+                    placeholder="Enter your phone number"
+                    value={this.state.phone}
                     onChange={this.changeHandler}
-                    placeholder="E.g. 541 444 0755"
                   />
-                  <p className="error-text">{error.phone || ""}</p>
                 </div>
 
+                {/* DATE */}
                 <div className="form-group">
-                  <label>Event date</label>
+                  <label>Wedding Date or Preferred Season</label>
                   <input
                     type="date"
-                    name="eventDate"
-                    value={eventDate}
+                    name="weddingDate"
+                    placeholder="e.g. June 2026 or Summer 2026"
+                    style={{ paddingRight: "25px" }}
+                    value={this.state.weddingDate}
+                    onChange={this.changeHandler}
+                    className={`date-input ${!this.state.weddingDate ? "empty" : ""}`}
+                  />
+                </div>
+
+                {/* LOCATION */}
+                <div className="form-group">
+                  <label>Wedding Location in Montenegro</label>
+                  <input
+                    type="text"
+                    name="location"
+                    placeholder="e.g. Kotor, Budva or TBD"
+                    value={this.state.location}
                     onChange={this.changeHandler}
                   />
                 </div>
 
+                {/* GUEST COUNT */}
                 <div className="form-group">
-                  <label>What service are you interested in? *</label>
-
-                  <div className="checkbox-list">
-                    <label className="checkbox-item">
-                      <input
-                        type="checkbox"
-                        value="Full Service Wedding Planning"
-                        checked={services.includes("Full Service Wedding Planning")}
-                        onChange={this.checkboxHandler}
-                      />
-                      <span>Full Service Wedding Planning</span>
-                    </label>
-
-                    <label className="checkbox-item">
-                      <input
-                        type="checkbox"
-                        value="Partial Wedding Planning"
-                        checked={services.includes("Partial Wedding Planning")}
-                        onChange={this.checkboxHandler}
-                      />
-                      <span>Partial Wedding Planning</span>
-                    </label>
-
-                    <label className="checkbox-item">
-                      <input
-                        type="checkbox"
-                        value="Event Coordination"
-                        checked={services.includes("Event Coordination")}
-                        onChange={this.checkboxHandler}
-                      />
-                      <span>Event Coordination</span>
-                    </label>
-
-                    <label className="checkbox-item">
-                      <input
-                        type="checkbox"
-                        value="Other Event Planning"
-                        checked={services.includes("Other Event Planning")}
-                        onChange={this.checkboxHandler}
-                      />
-                      <span>Other Event Planning (Shower, Birthday, Corporate, etc.)</span>
-                    </label>
-                  </div>
-
-                  <p className="error-text">{error.services || ""}</p>
-                </div>
-
-                <div className="form-group">
-                  <label>How did you hear about us?</label>
-                  <select
-                    name="hearAbout"
-                    value={hearAbout}
-                    onChange={this.changeHandler}
-                  >
-                    <option value="">Select an option</option>
-                    <option value="Instagram">Instagram</option>
-                    <option value="Google">Google</option>
-                    <option value="Friend referral">Friend referral</option>
-                    <option value="Venue">Venue</option>
-                    <option value="Other">Other</option>
+                  <label>Estimated Guest Count</label>
+                  <select name="guestCount" onChange={this.changeHandler}>
+                    <option value="">Select</option>
+                    <option>20</option>
+                    <option>50</option>
+                    <option>100+</option>
                   </select>
                 </div>
 
+                {/* BUDGET */}
                 <div className="form-group">
-                  <label>Tell me more about your event</label>
-                  <textarea
-                    name="details"
-                    value={details}
-                    onChange={this.changeHandler}
-                    placeholder="What do I need to know about the project?"
-                    rows="5"
-                  />
-                  <p className="error-text">{error.details || ""}</p>
+                  <label>Budget Range</label>
+                  <select name="budget" onChange={this.changeHandler}>
+                    <option value="">Select</option>
+                    <option>€30k - €50k</option>
+                    <option>€50k - €100k</option>
+                    <option>€100k+</option>
+                  </select>
                 </div>
 
+                {/* SERVICE */}
+                <div className="form-group">
+                  <label>Service of Interest *</label>
+                  <select name="service" onChange={this.changeHandler}>
+                    <option value="">Select</option>
+                    <option>Full Planning</option>
+                    <option>Partial Planning</option>
+                    <option>Elopement</option>
+                    <option>Coordination</option>
+                  </select>
+                  <p className="error-text">{this.state.error.service}</p>
+                </div>
+
+                {/* DETAILS */}
+                <div className="form-group">
+                  <label>Tell us about your vision *</label>
+                  <textarea name="details" rows="5" value={this.state.details} onChange={this.changeHandler} />
+                  <p className="error-text">{this.state.error.details}</p>
+                </div>
+
+                {/* HEAR ABOUT */}
+                <div className="form-group">
+                  <label>How did you hear about us?</label>
+                  <select name="hearAbout" onChange={this.changeHandler}>
+                    <option value="">Select</option>
+                    <option>Instagram</option>
+                    <option>Google</option>
+                    <option>Referral</option>
+                  </select>
+                </div>
+
+                {/* BUTTON */}
                 <div className="inquire-submit">
-                  <button type="submit">SEND</button>
+                  <button type="submit">SEND INQUIRY</button>
                 </div>
               </form>
             </div>
@@ -256,9 +228,8 @@ class ContactForm extends Component {
               <div className="inquire-side-text">
                 <h4>At Metheny and Company,</h4>
                 <p>
-                  We deliver a refined and inviting planning experience. With
-                  our thoughtful guidance and expert approach, we’ll help you
-                  plan the wedding of your dreams.
+                  Let’s start planning your story. We take on a limited number of weddings each year to ensure every
+                  couple receives our full devotion and world-class service.
                 </p>
 
                 <div className="inquire-contact-row">
