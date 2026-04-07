@@ -15,15 +15,15 @@ import test3 from '../../images/testimonial/img-3.jpg'
 const Testimonials = [
     {
       tstImg:test1,
-      name:'Jenefer Marvella',
+      name:'Regina & Kristian, Hungary',
       date:'12/12/19',
-      descriptoion:'This is not only a wedding planning agency but also a dreamy friend. I am very glad to work with them.They make my dream come true. In my wedding I found them as my best friends.',
+      descriptoion:'Thank you for everything, Tamara. You are truly the best wedding organizer ever. You made our big day so special, and we will be forever grateful to you! And not just for your professionalism. It was such a pleasure to get to know you! We send warm hugs from Budapest and look forward to seeing you again soon!',
     },
     {
       tstImg:test2,
-      name:'Jenefer Marvella',
+      name:'Jovana & Luka, Canada',
       date:'12/12/19',
-      descriptoion:'This is not only a wedding planning agency but also a dreamy friend. I am very glad to work with them.They make my dream come true. In my wedding I found them as my best friends.',
+      descriptoion:'Thank you! We had an amazing day, all thanks to you. We wouldn’t change a thing. It was incredible!',
     },
     {
       tstImg:test3,

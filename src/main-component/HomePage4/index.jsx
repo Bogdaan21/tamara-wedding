@@ -6,6 +6,7 @@ import About from "../../components/about1";
 import FunFact from "../../components/FunFact";
 import TeamSection from "../../components/team";
 import Testimonial from "../../components/Testimonial";
+import Portfolio from "../../components/PortfolioHome";
 import PricingSection from "../../components/PricingSection";
 import PartnerSection from "../../components/PartnerSection";
 import BlogSection from "../../components/BlogSection";
@@ -20,10 +21,11 @@ const HomePage4 = () => {
     <Fragment>
       <Navbar2 hclass={"wpo-header-style-2"} topbarBlock={"topbar-block"} />
       <Hero3 />
-      <About />
+      {/* <About /> */}
       <ServiceHome />
-      <AboutTamara />
-      <PartnerSection />
+      <Portfolio />
+      {/* <AboutTamara /> */}
+      {/* <PartnerSection /> */}
       <Testimonial />
       <Footer />
       <Scrollbar />

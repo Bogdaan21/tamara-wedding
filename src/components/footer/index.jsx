@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="wpo-upper-footer">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div className="col col-xl-5 col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="widget about-widget">
                 <div className="logo widget-title">
                   <Link onClick={ClickHandler} className="logo" to="/">
@@ -23,14 +23,16 @@ const Footer = () => {
                     ngs
                   </Link>
                 </div>
-                <p>Welcome and open yourself to your truest love this year with us! With the Release Process</p>
+                <p>Elements: Logo, Instagram Icon, LinkedIn Icon, Email Address, WhatsApp Number</p>
+                <p>Location Tag: Based in Montenegro | Destination Weddings</p>
+                <p>What a Wedding. All rights reserved</p>
               </div>
               <Link to="/" className="about-preview-btn">
                 Get in Touch
               </Link>
             </div>
 
-            <div className="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
+            <div className="col col-xl-5  col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="widget instagram">
                 <div className="widget-title">
                   <h3>Instagram</h3>

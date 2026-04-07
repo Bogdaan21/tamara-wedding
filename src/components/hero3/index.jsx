@@ -54,10 +54,22 @@ class Hero3 extends Component {
                       }}
                     />
                     <div className="clearfix"></div>
-                    <div className="slide-btns">
-                      <Link to="/about" className="theme-btn">
-                        Plan Your Wedding
-                      </Link>
+
+                    <div
+                      style={{
+                        textAlign: "center",
+                        marginTop: "30px",
+                        maxWidth: "700px",
+                        marginLeft: "auto",
+                        marginRight: "auto",
+                        color: "#fff",
+                      }}
+                    >
+                      <h2 style={{ fontSize: "28px", marginBottom: "10px" }}>Wedding in Montenegro</h2>
+
+                      <h4 style={{ fontWeight: "400", marginBottom: "15px" }}>
+                        What a Wedding - Luxury Wedding Planning and Design
+                      </h4>
                     </div>
                   </div>
                 </div>
@@ -73,10 +85,14 @@ class Hero3 extends Component {
                     right: 0,
                     textAlign: "center",
                     margin: "0 auto",
-                    width: "300px",
+                    width: "800px",
                   }}
                 >
-                  A Boutique Wedding and Event Planning Firm Serving clients in New York, New jersey and beyond
+                  <p style={{ fontSize: "15px", lineHeight: "1.7" }}>
+                    What a Wedding creates destination weddings in Montenegro, defined by intention, elegance, and a
+                    refined sense of simplicity. Founded by Tamara Perić in 2022, the team is dedicated to organizing
+                    and designing celebrations that feel personal, seamless, and entirely unique to each couple.
+                  </p>{" "}
                 </div>
               </div>
             </div>

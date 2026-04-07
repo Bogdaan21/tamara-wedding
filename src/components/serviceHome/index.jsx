@@ -1,9 +1,9 @@
-import React from 'react';
-import abimg from '../../images/about.jpg';
+import React from "react";
+import abimg from "../../images/about.jpg";
 
 const About = (props) => {
   return (
-    <section className={`wpo-about-section style-modern ${props.pt || ''}`}>
+    <section className={`wpo-about-section style-modern ${props.pt || ""}`}>
       <div className="container">
         <div className="wpo-about-section-wrapper">
           <div className="row align-items-center">
@@ -23,8 +23,8 @@ const About = (props) => {
               <div className="wpo-about-content modern-content">
                 <div className="about-title">
                   <h2>
-                    A Refined <br />
-                    and Inviting
+                    The Allure of <br />
+                    the Adriatic
                   </h2>
                   <span>planning experience</span>
                 </div>
@@ -33,20 +33,19 @@ const About = (props) => {
 
                 <div className="wpo-about-content-inner">
                   <p>
-                    At Metheny &amp; Company, as your bespoke NY wedding planner,
-                    you can expect a hands-on, personalized approach from day
-                    one. We strive to seamlessly blend the latest trends,
-                    timeless details, and bespoke personal touches to bring your
-                    event to life.
+                    Escape to a destination that offers the perfect harmony of Adriatic coastline and dramatic mountain
+                    peaks. Montenegro is a sanctuary for those who value intimacy and timeless elegance, a place where
+                    every historic stone and sunset glow tells a story of authenticity.
                   </p>
 
                   <p>
-                    All the while, we’ll be here to guide you through our proven
-                    process with ease.
+                    We specialize in designing bespoke weddings that seamlessly integrate with this unique landscape,
+                    managing every detail from venue selection to on-site coordination to ensure a flawless experience
+                    for you and your guests.
                   </p>
 
                   <a href="/services" className="theme-btn-modern">
-                    Our Offerings
+                    BEGIN YOUR JOURNEY
                   </a>
                 </div>
               </div>

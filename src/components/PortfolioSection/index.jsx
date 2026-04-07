@@ -19,16 +19,7 @@ const Portfolios = [
     },
     {
         Pimg:pImg3,
-    },
-    {
-        Pimg:pImg4,
-    },
-    {
-        Pimg:pImg5,
-    },
-    {
-        Pimg:pImg6,
-    },
+    }
 ] 
 
 const PortfolioSection = (props) => {
@@ -39,7 +30,7 @@ const PortfolioSection = (props) => {
     return(
         <section className={`wpo-portfolio-section section-padding ${props.pSclass}`} id="gallery">
             <div className="container">
-                <SectionTitle MainTitle={'Sweet Moments'}/>
+                <SectionTitle MainTitle={'Curated Celebrations'}/>
                 <div className="sortable-gallery">
                     <div className="row">
                         <div className="col-lg-12">
