@@ -59,11 +59,10 @@
 	
 				&+li{
 					margin-left: 20px;
-					padding-left: 20px;
+					// padding-left: 20px;
 					position: relative;
 
 					&:before{
-						position: absolute;
 						left: 0;
 						top: 50%;
 						transform: translateY(-50%);

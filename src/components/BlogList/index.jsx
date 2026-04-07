@@ -30,9 +30,6 @@ const BlogList = (props) => {
                         </Link>{" "}
                       </li>
                       <li>
-                        <i className="fi flaticon-comment-white-oval-bubble"></i> Comments {blog.comment}{" "}
-                      </li>
-                      <li>
                         <i className="fi flaticon-calendar"></i> {blog.create_at}
                       </li>
                     </ul>
