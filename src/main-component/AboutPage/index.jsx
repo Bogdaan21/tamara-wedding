@@ -10,12 +10,15 @@ import Scrollbar from '../../components/scrollbar'
 import ProjectSection from '../../components/ProjectSection';
 import PricingSection from '../../components/PricingSection';
 import ServiceList from '../../components/ServiceList';
+import About1 from "../../components/about1";
+
 
 const AboutPage =() => {
     return(
         <Fragment>
             <Navbar2/>
             <About pt={'pt-120'}/>
+            <About1 pt={'pb-120'}/>
             <ServiceList pbClass={'pb-0'}/>
             <Footer/>
             <Scrollbar/>

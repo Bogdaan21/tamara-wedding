@@ -1,9 +1,9 @@
-import React from 'react';
-import abimg from '../../images/about.jpg';
+import React from "react";
+import abimg from "../../images/about.jpg";
 
 const About = (props) => {
   return (
-    <section className={`wpo-about-section style-modern ${props.pt || ''}`}>
+    <section className={`wpo-about-section style-modern ${props.pt || ""}`}>
       <div className="container">
         <div className="wpo-about-section-wrapper">
           <div className="row align-items-center">
@@ -33,17 +33,13 @@ const About = (props) => {
 
                 <div className="wpo-about-content-inner">
                   <p>
-                    At Metheny &amp; Company, as your bespoke NY wedding planner,
-                    you can expect a hands-on, personalized approach from day
-                    one. We strive to seamlessly blend the latest trends,
-                    timeless details, and bespoke personal touches to bring your
-                    event to life.
+                    At What a Wedding, we believe that true elegance is found in refined simplicity. Our approach is
+                    about creating a visual and emotional harmony that feels effortless, yet is planned to the smallest
+                    detail. We don’t just coordinate logistics; we design celebrations that honor the natural character
+                    of Montenegro and the unique story of every couple we work with.
                   </p>
 
-                  <p>
-                    All the while, we’ll be here to guide you through our proven
-                    process with ease.
-                  </p>
+                  <p>All the while, we’ll be here to guide you through our proven process with ease.</p>
 
                   <a href="/services" className="theme-btn-modern">
                     Our Offerings
