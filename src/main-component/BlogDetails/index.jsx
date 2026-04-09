@@ -17,7 +17,7 @@ const BlogDetails =() => {
     return(
         <Fragment>
             <Navbar2/>
-            {/* <PageTitle pageTitle={BlogDetails.title} pagesub={'Blog'}/>  */}
+            <PageTitle pageTitle={"Blog page"} pagesub={'Blog'}/> 
              <BlogSingle/>
              <Footer/>
             <Scrollbar/>

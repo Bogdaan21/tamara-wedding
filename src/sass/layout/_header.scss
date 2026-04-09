@@ -1583,9 +1583,19 @@
 		}
 	}
   }
-  .fixed-navbar.active .wpo-header-style-2{
-    background: #856267;
+.fixed-navbar.active .wpo-header-style-2 {
+  background: white;
+
+  #navbar {
+    > ul {
+      > li {
+        > a {
+          color: #8c0327;
+        }
+      }
+    }
   }
+}
 
   .topbarNone{
 	  .topbar{
