@@ -1,5 +1,5 @@
 import React from "react";
-import abimg from "../../images/home/about.png";
+import abimg from "../../images/about.jpg";
 
 const About = (props) => {
   return (
@@ -23,8 +23,8 @@ const About = (props) => {
               <div className="wpo-about-content modern-content">
                 <div className="about-title">
                   <h2>
-                    The Allure of <br />
-                    the Adriatic
+                    A Refined <br />
+                    and Inviting
                   </h2>
                   <span>planning experience</span>
                 </div>
@@ -33,19 +33,16 @@ const About = (props) => {
 
                 <div className="wpo-about-content-inner">
                   <p>
-                    Escape to a destination that offers the perfect harmony of Adriatic coastline and dramatic mountain
-                    peaks. Montenegro is a sanctuary for those who value intimacy and timeless elegance, a place where
-                    every historic stone and sunset glow tells a story of authenticity.
+                    At What a Wedding, we believe that true elegance is found in refined simplicity. Our approach is
+                    about creating a visual and emotional harmony that feels effortless, yet is planned to the smallest
+                    detail. We don’t just coordinate logistics; we design celebrations that honor the natural character
+                    of Montenegro and the unique story of every couple we work with.
                   </p>
 
-                  <p>
-                    We specialize in designing bespoke weddings that seamlessly integrate with this unique landscape,
-                    managing every detail from venue selection to on-site coordination to ensure a flawless experience
-                    for you and your guests.
-                  </p>
+                  <p>All the while, we’ll be here to guide you through our proven process with ease.</p>
 
                   <a href="/services" className="theme-btn-modern">
-                    BEGIN YOUR JOURNEY
+                    Our Offerings
                   </a>
                 </div>
               </div>

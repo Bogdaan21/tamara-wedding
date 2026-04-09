@@ -1,7 +1,7 @@
 import React from "react";
 import abimg from "../../images/about.jpg";
 
-const About = (props) => {
+const AboutPage = (props) => {
   return (
     <section className={`wpo-about-section style-modern ${props.pt || ""}`}>
       <div className="container">
@@ -54,4 +54,4 @@ const About = (props) => {
   );
 };
 
-export default About;
+export default AboutPage;

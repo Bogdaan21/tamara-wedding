@@ -1,0 +1,107 @@
+[
+  {
+    "id": "kathleen-mirza",
+    "couple": "KATHLEEN AND MIRZA",
+    "title": "Timeless, elegant wedding at The Tides Estate",
+    "cover": "src/images/portfolio/kathleen-mirza/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/kathleen-mirza/3.jpg",
+      "src/images/portfolio/kathleen-mirza/4.jpg",
+      "src/images/portfolio/kathleen-mirza/5.jpg",
+      "src/images/portfolio/kathleen-mirza/6.jpg",
+      "src/images/portfolio/kathleen-mirza/7.jpg",
+      "src/images/portfolio/kathleen-mirza/8.jpg"
+    ]
+  },
+  {
+    "id": "olivia-robert",
+    "couple": "OLIVIA AND ROBERT",
+    "title": "Tented wedding at Hamilton Farm Golf Club",
+    "cover": "src/images/portfolio/olivia-robert/1.jpg",
+    "gallery": [
+      "src/images/portfolio/olivia-robert/2.jpg",
+      "src/images/portfolio/olivia-robert/3.jpg",
+      "src/images/portfolio/olivia-robert/4.jpg",
+      "src/images/portfolio/olivia-robert/5.jpg",
+      "src/images/portfolio/olivia-robert/6.jpg",
+      "src/images/portfolio/olivia-robert/7.jpg",
+      "src/images/portfolio/olivia-robert/8.jpg"
+    ]
+  },
+  {
+    "id": "erica-martin",
+    "couple": "ERICA AND MARTIN",
+    "title": "Chic wedding at Mountain Creek Resort",
+    "cover": "src/images/portfolio/erica-martin/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/erica-martin/3.jpg",
+      "src/images/portfolio/erica-martin/4.jpg",
+      "src/images/portfolio/erica-martin/5.jpg",
+      "src/images/portfolio/erica-martin/6.jpg",
+      "src/images/portfolio/erica-martin/7.jpg",
+      "src/images/portfolio/erica-martin/8.jpg"
+    ]
+  },
+  {
+    "id": "erica-martin",
+    "couple": "ERICA AND MARTIN",
+    "title": "Chic wedding at Mountain Creek Resort",
+    "cover": "src/images/portfolio/erica-martin/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/erica-martin/3.jpg",
+      "src/images/portfolio/erica-martin/4.jpg",
+      "src/images/portfolio/erica-martin/5.jpg",
+      "src/images/portfolio/erica-martin/6.jpg",
+      "src/images/portfolio/erica-martin/7.jpg",
+      "src/images/portfolio/erica-martin/8.jpg"
+    ]
+  },
+  {
+    "id": "erica-martin",
+    "couple": "ERICA AND MARTIN",
+    "title": "Chic wedding at Mountain Creek Resort",
+    "cover": "src/images/portfolio/erica-martin/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/erica-martin/3.jpg",
+      "src/images/portfolio/erica-martin/4.jpg",
+      "src/images/portfolio/erica-martin/5.jpg",
+      "src/images/portfolio/erica-martin/6.jpg",
+      "src/images/portfolio/erica-martin/7.jpg",
+      "src/images/portfolio/erica-martin/8.jpg"
+    ]
+  },
+  {
+    "id": "erica-martin",
+    "couple": "ERICA AND MARTIN",
+    "title": "Chic wedding at Mountain Creek Resort",
+    "cover": "src/images/portfolio/erica-martin/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/erica-martin/3.jpg",
+      "src/images/portfolio/erica-martin/4.jpg",
+      "src/images/portfolio/erica-martin/5.jpg",
+      "src/images/portfolio/erica-martin/6.jpg",
+      "src/images/portfolio/erica-martin/7.jpg",
+      "src/images/portfolio/erica-martin/8.jpg"
+    ]
+  },
+  {
+    "id": "erica-martin",
+    "couple": "ERICA AND MARTIN",
+    "title": "Chic wedding at Mountain Creek Resort",
+    "cover": "src/images/portfolio/erica-martin/1.jpg",
+    "gallery": [
+      "src/images/portfolio/erica-martin/2.jpg",
+      "src/images/portfolio/erica-martin/3.jpg",
+      "src/images/portfolio/erica-martin/4.jpg",
+      "src/images/portfolio/erica-martin/5.jpg",
+      "src/images/portfolio/erica-martin/6.jpg",
+      "src/images/portfolio/erica-martin/7.jpg",
+      "src/images/portfolio/erica-martin/8.jpg"
+    ]
+  }
+]

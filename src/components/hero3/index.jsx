@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo-tamara.png";
 
-import hero1 from "../../images/test/1.jpeg";
-import hero2 from "../../images/test/2.jpeg";
-import hero3 from "../../images/test/3.jpeg";
+import hero1 from "../../images/home/1.jpg";
+// import hero2 from "../../images/test/2.jpeg";
+// import hero3 from "../../images/test/3.jpeg";
 
 class Hero3 extends Component {
   state = {
@@ -24,7 +24,8 @@ class Hero3 extends Component {
   }
 
   render() {
-    const slides = [hero1, hero2, hero3];
+    // const slides = [hero1, hero2, hero3];
+    const currentImage = hero1; // izaberi koju hoćeš
 
     return (
       <div className="wpo-hero-slider wpo-hero-style-3">
@@ -34,7 +35,8 @@ class Hero3 extends Component {
               <div
                 className="slide-inner slide-bg-image"
                 style={{
-                  backgroundImage: `url(${slides[this.state.currentSlide]})`,
+                  // backgroundImage: `url(${slides[this.state.currentSlide]})`,
+                  backgroundImage: `url(${currentImage})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -65,11 +67,9 @@ class Hero3 extends Component {
                         color: "#fff",
                       }}
                     >
-                      <h2 style={{ fontSize: "28px", marginBottom: "10px" }}>Wedding in Montenegro</h2>
+                      <h2 style={{ fontSize: "28px", marginBottom: "10px", color: "white" }}>What a Wedding</h2>
 
-                      <h4 style={{ fontWeight: "400", marginBottom: "15px" }}>
-                        What a Wedding - Luxury Wedding Planning and Design
-                      </h4>
+                      <h4 style={{ fontWeight: "400", marginBottom: "15px", color: "white" }}>Luxury Wedding Planning and Design</h4>
                     </div>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ class Hero3 extends Component {
                     width: "800px",
                   }}
                 >
-                  <p style={{ fontSize: "15px", lineHeight: "1.7" }}>
+                  <p style={{ fontSize: "15px", lineHeight: "1.7", color: "white" }}>
                     What a Wedding creates destination weddings in Montenegro, defined by intention, elegance, and a
                     refined sense of simplicity. Founded by Tamara Perić in 2022, the team is dedicated to organizing
                     and designing celebrations that feel personal, seamless, and entirely unique to each couple.

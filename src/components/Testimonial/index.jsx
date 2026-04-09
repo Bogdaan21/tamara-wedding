@@ -67,7 +67,7 @@ class Testimonial extends Component {
         return (
             <div className="wpo-testimonial-area pt-120">
                 <div className="container">
-                    <SectionTitle MainTitle={'What Our Clients Say'} />
+                    <SectionTitle MainTitle={'What Our Couples Say'} />
                     <div className="wpo-testimonial-wrap">
                         <div className="testimonial-slider owl-carousel">
                             <Slider {...settings}>
