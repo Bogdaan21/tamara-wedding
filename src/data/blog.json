@@ -1,0 +1,32 @@
+[
+  {
+    "id": "luxury-weddings-montenegro",
+    "title": "Luxury Weddings in Montenegro",
+    "author": "Tamara Perić",
+    "date": "12 Mar 2026",
+    "image": "/src/images/blog/1/img-3.jpg",
+    "description": "Discover how Montenegro became a perfect destination for elegant celebrations.",
+    "content1": "Montenegro has become one of the most desirable destinations for couples seeking elegance, intimacy, and breathtaking scenery. From the Bay of Kotor to exclusive seaside venues, every location offers a unique atmosphere.",
+    "quote": "A truly unforgettable wedding is not only beautiful, but also seamless, personal, and deeply meaningful.",
+    "content2": "Planning a destination wedding requires expert coordination, trusted local knowledge, and a refined design approach. With the right guidance, couples can fully enjoy the process while every detail is handled with care.",
+    "gallery": [
+      "/src/images/blog/img-5.jpg",
+      "/src/images/blog/img-5.jpg"
+    ]
+  },
+  {
+    "id": "destination-wedding-guide",
+    "title": "Destination Wedding Guide",
+    "author": "Tamara Perić",
+    "date": "05 Mar 2026",
+    "image": "/src/images/blog/2/img-2.jpg",
+    "description": "A practical guide for couples planning their destination wedding.",
+    "content1": "A destination wedding is more than choosing a beautiful place. It is about creating an experience for you and your guests that feels effortless and memorable from beginning to end.",
+    "quote": "The best celebrations are built on trust, clarity, and a shared vision.",
+    "content2": "From guest logistics to venue styling and wedding weekend flow, every part of the celebration should feel cohesive and intentional.",
+    "gallery": [
+      "/src/images/blog/img-5.jpg",
+      "/src/images/blog/img-5.jpg"
+    ]
+  }
+]
