@@ -8,6 +8,9 @@ import FunFact from "../../components/FunFact";
 import PricingSection from "../../components/PricingSection";
 import ImgStyle from "../../components/ImgStyle";
 import BelowService from "../../components/belowservice";
+import ServiceSectionPart1 from "../../components/ServiceSectionPart1";
+import ServiceSectionPart2 from "../../components/ServiceSectionPart2";
+import ServiceSectionPart3 from "../../components/ServiceSectionPart3";
 
 const ServicePage = () => {
   return (
@@ -15,7 +18,10 @@ const ServicePage = () => {
       <Navbar2 />
       <BelowService />
       <ImgStyle />
-      <ServiceSection2 sSClass={"wpo-service-section-s3"} />
+      <ServiceSectionPart1 />
+      <ServiceSectionPart2 />
+      <ServiceSectionPart3 />
+      {/* <ServiceSection2 sSClass={"wpo-service-section-s3"} /> */}
       <Footer />
       <Scrollbar />
     </Fragment>

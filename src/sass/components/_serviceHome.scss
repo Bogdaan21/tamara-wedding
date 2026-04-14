@@ -186,3 +186,29 @@
     letter-spacing: 2px;
   }
 }
+
+.service-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.service-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #856267;
+  font-size: 18px;
+}
+
+.service-list li {
+  font-size: 15px;
+  line-height: 1.7;
+}
