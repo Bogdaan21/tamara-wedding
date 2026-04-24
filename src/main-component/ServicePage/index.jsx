@@ -21,7 +21,7 @@ const ServicePage = () => {
       <ServiceSectionPart1 />
       <ServiceSectionPart2 />
       <ServiceSectionPart3 />
-      {/* <ServiceSection2 sSClass={"wpo-service-section-s3"} /> */}
+      {/* <ServiceSection2 sSClass={"wpo-service-section-s3"} /> */} 
       <Footer />
       <Scrollbar />
     </Fragment>
