@@ -3,7 +3,7 @@
     "id": "kathleen-mirza",
     "couple": "KATHLEEN AND MIRZA",
     "title": "Timeless, elegant wedding at The Tides Estate",
-    "cover": "/src/images/portfolio/kathleen-mirza/1.jpg",
+    "cover": "/img/portfolio/kathleen-mirza/1.jpg",
     "location": "The Tides Estate, New York",
     "date": "20 Apr 2026",
     "duration": "3 Months",
@@ -12,20 +12,20 @@
     "description1": "This celebration was thoughtfully designed to reflect the couple’s unique story, combining refined aesthetics, seamless coordination, and timeless elegance in every detail.",
     "description2": "From concept development to the final guest experience, every moment was carefully curated to create an atmosphere that felt personal, effortless, and unforgettable.",
     "gallery": [
-      "/src/images/portfolio/kathleen-mirza/2.jpg",
-      "/src/images/portfolio/kathleen-mirza/3.jpg",
-      "/src/images/portfolio/kathleen-mirza/4.jpg",
-      "/src/images/portfolio/kathleen-mirza/5.jpg",
-      "/src/images/portfolio/kathleen-mirza/6.jpg",
-      "/src/images/portfolio/kathleen-mirza/7.jpg",
-      "/src/images/portfolio/kathleen-mirza/8.jpg"
+      "/img/portfolio/kathleen-mirza/2.jpg",
+      "/img/portfolio/kathleen-mirza/3.jpg",
+      "/img/portfolio/kathleen-mirza/4.jpg",
+      "/img/portfolio/kathleen-mirza/5.jpg",
+      "/img/portfolio/kathleen-mirza/6.jpg",
+      "/img/portfolio/kathleen-mirza/7.jpg",
+      "/img/portfolio/kathleen-mirza/8.jpg"
     ]
   },
   {
     "id": "olivia-robert",
     "couple": "OLIVIA AND ROBERT",
     "title": "Tented wedding at Hamilton Farm Golf Club",
-    "cover": "/src/images/portfolio/olivia-robert/1.jpg",
+    "cover": "/img/portfolio/olivia-robert/1.jpg",
     "location": "Hamilton Farm Golf Club",
     "date": "14 Oct 2025",
     "duration": "2 Months",
@@ -34,20 +34,20 @@
     "description1": "A refined tented wedding experience shaped around elegance, atmosphere, and an effortless guest journey.",
     "description2": "Every element was carefully planned to balance timeless sophistication with a warm and personal celebration.",
     "gallery": [
-      "/src/images/portfolio/olivia-robert/2.jpg",
-      "/src/images/portfolio/olivia-robert/3.jpg",
-      "/src/images/portfolio/olivia-robert/4.jpg",
-      "/src/images/portfolio/olivia-robert/5.jpg",
-      "/src/images/portfolio/olivia-robert/6.jpg",
-      "/src/images/portfolio/olivia-robert/7.jpg",
-      "/src/images/portfolio/olivia-robert/8.jpg"
+      "/img/portfolio/olivia-robert/2.jpg",
+      "/img/portfolio/olivia-robert/3.jpg",
+      "/img/portfolio/olivia-robert/4.jpg",
+      "/img/portfolio/olivia-robert/5.jpg",
+      "/img/portfolio/olivia-robert/6.jpg",
+      "/img/portfolio/olivia-robert/7.jpg",
+      "/img/portfolio/olivia-robert/8.jpg"
     ]
   },
   {
     "id": "erica-martin",
     "couple": "ERICA AND MARTIN",
     "title": "Chic wedding at Mountain Creek Resort",
-    "cover": "/src/images/portfolio/erica-martin/1.jpg",
+    "cover": "/img/portfolio/erica-martin/1.jpg",
     "location": "Mountain Creek Resort",
     "date": "08 Jun 2025",
     "duration": "6 Weeks",
@@ -56,13 +56,13 @@
     "description1": "A chic and fashion-forward wedding concept brought to life with careful planning, visual harmony, and elevated styling.",
     "description2": "The day was designed to feel contemporary, romantic, and seamless from the first guest arrival to the final celebration.",
     "gallery": [
-      "/src/images/portfolio/erica-martin/2.jpg",
-      "/src/images/portfolio/erica-martin/3.jpg",
-      "/src/images/portfolio/erica-martin/4.jpg",
-      "/src/images/portfolio/erica-martin/5.jpg",
-      "/src/images/portfolio/erica-martin/6.jpg",
-      "/src/images/portfolio/erica-martin/7.jpg",
-      "/src/images/portfolio/erica-martin/8.jpg"
+      "/img/portfolio/erica-martin/2.jpg",
+      "/img/portfolio/erica-martin/3.jpg",
+      "/img/portfolio/erica-martin/4.jpg",
+      "/img/portfolio/erica-martin/5.jpg",
+      "/img/portfolio/erica-martin/6.jpg",
+      "/img/portfolio/erica-martin/7.jpg",
+      "/img/portfolio/erica-martin/8.jpg"
     ]
   }
 ]

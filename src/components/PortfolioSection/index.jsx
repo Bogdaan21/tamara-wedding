@@ -1,11 +1,11 @@
 import { useState } from "react";
 import SectionTitle from '../SectionTitle'
-import pImg1 from '../../images/portfolio/7.jpg'
-import pImg2 from '../../images/portfolio/8.jpg'
-import pImg3 from '../../images/portfolio/9.jpg'
-import pImg4 from '../../images/portfolio/10.jpg'
-import pImg5 from '../../images/portfolio/11.jpg'
-import pImg6 from '../../images/portfolio/12.jpg'
+import pImg1 from '/img/portfolio/7.jpg'
+import pImg2 from '/img/portfolio/8.jpg'
+import pImg3 from '/img/portfolio/9.jpg'
+import pImg4 from '/img/portfolio/10.jpg'
+import pImg5 from '/img/portfolio/11.jpg'
+import pImg6 from '/img/portfolio/12.jpg'
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
