@@ -57,20 +57,21 @@ class Header2 extends Component {
                   </div>
                 </div>
 
-                <div className="col-lg-3 col-md-6 col-6">
-                  <div className="navbar-header">
-                    <Link onClick={ClickHandler} className="navbar-brand logo" to="/home">
-                      <img src={logo} alt="Logo" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-1 col-1">
+                <div className="col-lg-12 col-md-1 col-1">
                   <div id="navbar" className="collapse navbar-collapse navigation-holder">
                     <button className="menu-close">
                       <i className="ti-close"></i>
                     </button>
-                    <ul className="nav navbar-nav mb-2 mb-lg-0">
+                    <ul
+                      className="nav navbar-nav mb-2 mb-lg-0"
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        width: "100%",
+                        gap: "60px"
+                      }}
+                    >
                       <li className="menu-item-has-children">
                         <Link onClick={ClickHandler} to="/home4">
                           Home
@@ -88,6 +89,21 @@ class Header2 extends Component {
                           Service
                         </Link>
                       </li>
+
+                      <div className="col-lg-3 col-md-6 col-6">
+                        <div
+                          className="navbar-header"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          <Link onClick={ClickHandler} className="navbar-brand logo" to="/home">
+                            <img src={logo} alt="Logo" />
+                          </Link>
+                        </div>
+                      </div>
 
                       <li className="menu-item-has-children">
                         <Link to="/portfolio-grid">Portfolio</Link>

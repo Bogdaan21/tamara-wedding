@@ -56,13 +56,14 @@
 
 
 .wpo-page-title{
-    background: url(../../images/page-title.jpg) no-repeat center top / cover;
+    background: url(../../images/about/About.jpg) no-repeat center top / cover;
     min-height: 300px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
+		object-fit: cover;
 
 	@media(max-width: 767px) {
 		min-height: 250px;

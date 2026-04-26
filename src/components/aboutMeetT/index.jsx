@@ -1,5 +1,5 @@
 import React from "react";
-import tpImg from "../../images/portfolio-single/1.jpg"; // privremena slika, kasnije zamijeni TP slikom
+import tpImg from "../../images/about/TP.jpg"; // privremena slika, kasnije zamijeni TP slikom
 
 const MeetTamara = (props) => {
   return (

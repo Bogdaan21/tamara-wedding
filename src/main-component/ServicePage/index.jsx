@@ -7,7 +7,7 @@ import ServiceSection2 from "../../components/ServiceSection2";
 import FunFact from "../../components/FunFact";
 import PricingSection from "../../components/PricingSection";
 import ImgStyle from "../../components/ImgStyle";
-import BelowService from "../../components/belowservice";
+// import BelowService from "../../components/belowservice";
 import ServiceSectionPart1 from "../../components/ServiceSectionPart1";
 import ServiceSectionPart2 from "../../components/ServiceSectionPart2";
 import ServiceSectionPart3 from "../../components/ServiceSectionPart3";
@@ -16,7 +16,7 @@ const ServicePage = () => {
   return (
     <Fragment>
       <Navbar2 />
-      <BelowService />
+      {/* <BelowService /> */}
       <ImgStyle />
       <ServiceSectionPart1 />
       <ServiceSectionPart2 />

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import inquireImg from "./../../images/portfolio-single/1.jpg";
+import inquireImg from "../../images/contact/contact.jpg";
 
 class ContactForm extends Component {
   state = {

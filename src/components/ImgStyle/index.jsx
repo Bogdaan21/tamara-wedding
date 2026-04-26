@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sideImg from "../../images/about.jpg";
+import sideImg from "../../images/service/Service.jpg";
 
 const VideoSection = () => {
   return (
